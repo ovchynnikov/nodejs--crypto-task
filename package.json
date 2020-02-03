@@ -1,0 +1,19 @@
+{
+  "name": "oovchynn",
+  "version": "1.0.0",
+  "description": "testdescription",
+  "main": "nodejs.js",
+  "dependencies": {
+    "cryptr": "^6.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "git": "^0.1.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
