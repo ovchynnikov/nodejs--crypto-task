@@ -3,10 +3,12 @@ const crypto = require('crypto');
 const fs = require('fs');
 const Cryptr = require('cryptr');
 cryptr = new Cryptr('oleksii');
+const cors = require('cors');
 const express = require("express");
 		app = express(),
 		http = require("http").Server(app).listen(80),
 		upload = require("express-fileupload");
+app.use(cors())
 app.use(upload())
 app.use(express.static(__dirname + '/public'));
 console.log("Server started")
@@ -30,7 +32,7 @@ app.post("/decode",function(req,res){
 		
 		const file = req.files.filename,
 		filename = req.files.filename;
-		console.log(filename.data);
+		console.log(filename.data); 
 	 	let dataFromFile = filename.data;
 	 	const mykey = cryptr.decrypt(dataFromFile);
 		
