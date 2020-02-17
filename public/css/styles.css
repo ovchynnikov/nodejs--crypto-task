@@ -1,22 +1,24 @@
 body {
-  font-family: "Arial", sans-serif;
+       font-family: "Arial", sans-serif;
+}
+
+.all-page{
+       margin-left: 300px;
 }
 
 .dropzone {
-  width: 400px;
-  height: 300px;
-  border: 2px dashed #ccc;
-  color: #ccc;
-  line-height: 300px;
-  text-align: center;
-  
-  margin-right: 100px;
-  
+       width: 400px;
+       height: 300px;
+       border: 2px dashed #ccc;
+       color: #ccc;
+       line-height: 300px;
+       text-align: center;
+       margin-right: 100px;
 }
 
 .dropzone.dragover {
-  border-color: #000;
-  color: #000;
+        border-color: #000;
+        color: #000;
 }
 
 .green {
@@ -24,25 +26,31 @@ body {
 	background-color: green;
 	opacity: 1;
 	width: 80px;
-    height: 40px;
-	border-radius: 15px;
-	
+        height: 40px;
+	border-radius: 15px;	
 }
+
 h1{
 	padding-left: 250px;
 }
+
 h2{
 	padding-left: 40px;
 	float: left;
 }
 
+h3{
+	padding-left: 420px;
+}
+
 .form1{
 	float: left;
-	
 }
 
 .form2{
 	float: left;
 }
 
-.bothforms{padding-left: 130px;}
+.bothforms{
+	padding-left: 130px;
+}
